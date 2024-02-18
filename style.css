@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  block-size: 100%;
+}
+
+body {
+  min-block-size: 100%;
+
+  /* 
+        layout for children elements
+        horizontal center
+        vertical center
+    */
+
+  display: grid;
+  place-content: center;
+}
+
+.game-board {
+  /* 
+        layout for children elements ? 
+        don't know the dimension of the board
+        
+        width and height are depended on the children elements.
+    
+    */
+  padding: 0.5rem;
+  /* 
+        gap of the rows in the same game board
+    */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.row {
+  /* 
+        the gap of the cells on the same row
+    */
+
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cell {
+  width: 4rem;
+  height: 4rem;
+
+  border-radius: 0.2rem;
+  background: gray;
+}
+.fill {
+  background: red;
+}
