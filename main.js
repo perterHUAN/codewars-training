@@ -1,1 +1,1 @@
-import "./findUnknowDigit.test.js";
+import "./find-unknown-digit.test.js";

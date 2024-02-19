@@ -1,6 +1,5 @@
 import draw from "./draw.js";
-import validateBattlefield from "./validateBattleShip.js";
-
+import validateBattlefield from './battleship-field-validator.js'
 // const res = validateBattlefield([
 //   [1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
 //   [1, 0, 1, 0, 0, 0, 0, 0, 1, 0],
