@@ -12,4 +12,9 @@ import generateBC from "./breadcrumb-generator.js";
 //   });
 // });
 
-console.log(generateBC("www.agcpartners.co.uk/", " : "));
+console.log(
+  generateBC(
+    "https://codewars.com/bladder-with-cauterization-paper-or-skin-kamehameha-bioengineering/and-biotechnology-for-eurasian/profiles/in-eurasian-immunity-transmutation-insider?hack=off",
+    " : "
+  )
+);
