@@ -4,4 +4,6 @@
 
 // import "./sum-strings-as-numbers.test.js"
 
-import "./make-a-spiral.test.js";
+// import "./make-a-spiral.test.js";
+
+import "./the-million-fibnacci.test.js";
