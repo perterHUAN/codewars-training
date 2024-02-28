@@ -6,4 +6,6 @@
 
 // import "./make-a-spiral.test.js";
 
-import "./the-million-fibnacci.test.js";
+// import "./the-million-fibnacci.test.js";
+
+import "./alphabetic-anagrams.test.js"
