@@ -8,4 +8,6 @@
 
 // import "./the-million-fibnacci.test.js";
 
-import "./alphabetic-anagrams.test.js"
+// import "./alphabetic-anagrams.test.js"
+
+import "./the-builder-of-things.test.js";
