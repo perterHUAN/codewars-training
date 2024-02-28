@@ -10,4 +10,6 @@
 
 // import "./alphabetic-anagrams.test.js"
 
-import "./the-builder-of-things.test.js";
+// import "./the-builder-of-things.test.js";
+
+import "./binominal-expansion.test.js"
